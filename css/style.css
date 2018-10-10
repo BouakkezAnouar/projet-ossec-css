@@ -1,0 +1,130 @@
+
+nav {
+    display: flex ;
+    align-items: center ;
+    height: 30vh ;
+    width: 100% ;
+    background-color: red ;
+    background-color: #1abc9c;
+    border-color: #16a085;
+    position: sticky ;
+    
+}
+
+body {
+    margin: 0 ;
+}
+
+.name {
+    flex : 4;
+    color: white ;
+}
+.name p {
+    font-size: 20px;
+    font-weight: bold ;
+    font-family: cursive;
+    padding-left: 10vw;
+}
+
+.buttons {
+    flex : 1; 
+    display: flex ;
+}
+
+.buttons a {
+    padding: 2vw; 
+    color: white;
+    text-decoration: none ;
+    font-size: 20px;
+    font-weight: bold ;
+    font-family: cursive;
+}
+
+.about {
+    display: flex ;
+    flex-direction: column ;
+    align-items: center ;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    background-color: #f2f2f2;
+    height: 56vh ;
+}
+
+
+.about-title {
+        font-size: 35px;
+        margin-top: 30p;
+}
+
+.about-text {
+    
+    font-family: monospace;
+    line-height: 28px;
+    margin-bottom: 25px;
+    font-size: 14px;
+    text-align: center;
+    margin-left: 18vw ;
+    margin-right: 18vw;
+    font-weight: 400;
+    color: #555;
+}
+
+
+
+.portoflio {
+    display: grid ;
+    background-color: white ;
+    display: grid;
+   grid-template-columns: auto auto auto;
+   padding: 10px;
+   
+}
+
+
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.img-item {
+    width: 25vw ;
+    height: 40vh ;
+    
+}
+
+footer {
+    display: flex ;
+    justify-content: space-around;
+    background-color: #2f2f2f;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    height: 20vh ;
+    color: white ;
+    font-size: 16px;
+}
+
+
+
+.col a{
+    
+    text-decoration: none ;
+    color: white ;
+}
+
+.col ul {
+    list-style-type: none ;
+}
+.col ul p{
+    margin-left: -30px;
+}
+
+.col ul p {
+    list-style-type: none ;
+}
+
+.col {
+    flex : 1 ;
+    margin-left: 5vw;
+}
